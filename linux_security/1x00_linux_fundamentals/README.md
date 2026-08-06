@@ -1,3 +1,1 @@
 Linux_security/1x00_linux_fundamentals
-Linux_security/1x00_linux_fundamentals
-Linux_security/1x00_linux_fundamentals
