@@ -1,3 +1,0 @@
-#!/bin/bash
-mkdir -p $1 && groupadd -f developer
-chown root:developer $1 && chmod 2775 $1
