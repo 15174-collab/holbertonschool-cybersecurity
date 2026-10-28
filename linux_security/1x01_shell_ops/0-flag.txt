@@ -1,9 +1,1 @@
-Starting Task
-Doing Work
-Error: Work Failed
-Starting Task
-Doing Work
-Error: Work Failed
-Starting Task
-Doing Work
-Error: Work Failed
+FLAG: c90bcbe32f3d8652385da315428cb720
