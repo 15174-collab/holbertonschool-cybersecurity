@@ -1,2 +1,8 @@
 #!/bin/bash
-awk -F: '$1 ~ /^(root|disk|docker|shadow)$/ && $4 != "" {n = split($4, m, ","); for (i = 1; i <= n; i++) print m[i]":"$1}' "$1"
+awk -F: '$3 >= 1000 {print $1}' "$1" | while read -r user; do
+    for group in disk docker shadow; do
+        if id -nG "$user" | grep -qw "$group"; then
+            echo "$user:$group"
+        fi
+    done
+done
